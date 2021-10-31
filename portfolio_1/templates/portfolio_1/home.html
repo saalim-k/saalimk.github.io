@@ -1,3 +1,520 @@
 {% load static %}
-<link href="{% static '/css/main.css' %}" rel="styelesheet" type="text/css">
-<h1>Welcome</h1>
+<body style="overflow: visible;">
+<header>
+<div class="header-area header-transparent">
+<div class="main-header header-sticky">
+<div class="container-fluid">
+<div class="d-flex align-items-center justify-content-between flex-wrap">
+<div class="header-info-left d-flex align-items-center">
+
+<div class="logo">
+<a href="index.html"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}
+var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;
+function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}
+function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),
+b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});
+function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=
+new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}
+function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});
+u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();
+
+pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://preview.colorlib.com/theme/jackco/index.html','-ilGEe-FWC',true,false,'wXc8HDnz0os');
+//]]></script><img src="data:image/webp;base64,UklGRhwCAABXRUJQVlA4TBACAAAvcMAIEIdAkG3T3d/5GmraNmDScZY/3RJI2rj373xFjSSpwX0zH+g4OxcAQAYVEWYETGjsgoA6Y96r85N67kOWbFtxWx3QFUKA2Hf+06VJ7CSv/Yno/wToX/UK+PcAUL9WzBXoJf0UIbN+7EcIje3zJyjs9/D9GeN9SGcDyO8Vrwrw3Lay0qEX+0gCuGdluDSGB+iTmBvQcnxR6qxLGEJlWcJW7EDTHODRPAFESc7aX3KynYfGZtlqQI8zG+6FDSZldvMr6nBFnQ1AkgNcId4AacMBTm35Qu7uUQZQDh0FwF6Qa62XJNlwSB1wSapAWRlA1ifNC1A1VqC+YHNiMoA4ONAX4QGaXgOQJifAS+JVGkvTNWg0d/dFAXp8zTHYxAZ7QWbb5BvLoQFc+jR392ifl9w9bWXeYvqEj9wrAHtBBepOYLwtymbXRnR336JshOFZHEM8XtMkhZkNl6SVDWEwoO9xrtQAfFaARxrS5By0zgCucA8+s6HO1AEfbqAu7mPocZUGyiEdBcClAtRJBapUAZfOYW2zeuisjFcMGeAK0QHSrEgOUFeqw2YPkgGUQ0cBsA21nSqps+yd0UJjs2nmkhrAtQpt75SkzG7WTmirGiSlRTvyTKGtWtiKHejHQuHeeExT33BtSakCvSRN7X6gXUHKHUqUlEqHXpLGlS6AFhZSzBXoJWkdcwNajvrIf8I=" alt="" data-pagespeed-url-hash="4074570475" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+</div>
+</div>
+<div class="header-righ">
+
+<div class="main-menu d-none d-lg-block">
+<nav>
+<ul id="navigation">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="#">Blog</a>
+<ul class="submenu">
+<li><a href="blog.html">Blog</a></li>
+<li><a href="blog_details.html">Blog Details</a></li>
+<li><a href="elements.html">Elements</a></li>
+</ul>
+</li>
+<li><a href="contact.html">Contact</a></li>
+
+<li class="header-right-btn"><a href="#" class="header-btn">Fire me an Email</a> </li>
+</ul>
+</nav>
+</div>
+</div>
+
+<div class="col-12">
+<div class="mobile_menu d-block d-lg-none"><div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+<li><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
+<li><a href="about.html" role="menuitem" tabindex="-1">About</a></li>
+<li><a href="portfolio.html" role="menuitem" tabindex="-1">Portfolio</a></li>
+<li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a href="#" tabindex="-1">Blog</a>
+<span class="slicknav_arrow">+</span></a><ul class="submenu slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+<li><a href="blog.html" role="menuitem" tabindex="-1">Blog</a></li>
+<li><a href="blog_details.html" role="menuitem" tabindex="-1">Blog Details</a></li>
+<li><a href="elements.html" role="menuitem" tabindex="-1">Elements</a></li>
+</ul>
+</li>
+<li><a href="contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+
+<li class="header-right-btn"><a href="#" class="header-btn" role="menuitem" tabindex="-1">Fire me an Email</a> </li>
+</ul></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main>
+
+<section class="slider-area gray-bg">
+<div class="slider-active slick-initialized slick-slider">
+
+<div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3498px;"><div class="single-slider slider-height d-flex align-items-center slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 3498px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
+<div class="container">
+<div class="row">
+<div class="col-xl-5 col-lg-7 col-md-7 col-sm-9">
+<div class="hero__caption">
+<h1>Visual Design &amp; Art Director</h1>
+<p>Hi, I am Jack, focusing on creating emotional experiences.</p>
+
+<div class="hero__btn">
+<a href="#" class="border-btn hero-btn" tabindex="0">Hire Me</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="hero-man" data-animation="pulse" data-delay=".4s" style="animation-delay: 0.4s;">
+<img src="assets/img/hero/xhero_right.png.pagespeed.ic.54t-THdi2A.webp" alt="" data-pagespeed-url-hash="2892788404" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+</div>
+</div></div></div>
+</div>
+</section>
+
+
+<section class="about-area section-padding section-img-bg2" data-background="assets/img/gallery/section-bg.jpg" style="background-image: url(&quot;assets/img/gallery/section-bg.jpg&quot;);">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xl-10">
+<div class="about-wrappper">
+<div class="row justify-content-center">
+<div class="col-xxl-10 col-xl-12 col-lg-10">
+<div class="about-caption mb-40 text-center">
+<span>About Myself</span>
+<h2>I’m a Creative director based on New York,
+who loves clean, simple &amp; unique design.
+I also enjoy crafting..</h2>
+<a href="#" class="btn_02 mb-10">Download Resume</a>
+</div>
+</div>
+</div>
+<div class="row border-top pt-50">
+<div class="col-lg-6 col-md-6">
+
+<div class="skill-ara">
+<div class="skill">
+<div class="single-skill">
+<div class="progress-count">
+<p>User Reachers</p>
+</div>
+<div class="progress">
+<div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style="width: 60%; visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: slideInLeft;" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="single-skill">
+<div class="progress-count">
+<p>UI Design</p>
+</div>
+<div class="progress">
+<div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style="width: 89%; visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: slideInLeft;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-lg-6 col-md-6">
+
+<div class="skill-ara">
+<div class="skill">
+<div class="single-skill">
+<div class="progress-count">
+<p>Web Design</p>
+</div>
+<div class="progress">
+<div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".5s" aria-valuenow="25" role="progressbar" style="width: 60%; visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: slideInLeft;" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+<div class="single-skill">
+<div class="progress-count">
+<p>Illustration</p>
+</div>
+<div class="progress">
+<div class="progress-bar wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s" role="progressbar" style="width: 89%; visibility: visible; animation-duration: 1s; animation-delay: 0.7s; animation-name: slideInLeft;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="col-xl-12">
+<p class="text-center mt-30">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="experience-top section-padding">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xxl-9 col-xl-10 col-lg-10">
+<div class="section-tittle text-center mb-45">
+<h2>My Expertise</h2>
+</div>
+</div>
+</div>
+<div class="row align-items-center">
+<div class="col-xxl-6 col-xl-7 col-lg-6">
+<div class="experience">
+<h2>User Experience Design</h2>
+<h2>User Interface Design</h2>
+<h2>Web Design</h2>
+</div>
+</div>
+<div class="col-xxl-6 col-xl-5 col-lg-6">
+<div class="section-tittle pl-30 m-0">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="may-about bottom-padding">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="section-tittle section-tittle2 mb-40">
+<h2>Experience</h2>
+</div>
+</div>
+<div class="offset-lg-2 col-xl-9 col-lg-9">
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>User Experience Designer</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at
+<a href="#">Colorlib<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>UI Designer</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at
+<a href="#">Colorlib<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>Illustration Artiest</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at
+<a href="#">Colorlib<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>Graphic Designer</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at
+<a href="#">Colorlib<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="visit-tailor-area fix">
+
+<div class="visit-team"> </div>
+
+<div class="tailor-details">
+<p>"I help creative entrepreneurs build better businesses, maximize productivity, and cultivate an engaged community.</p>
+</div>
+</div>
+
+
+
+<section class="may-about section-padding">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="section-tittle section-tittle2 mb-40">
+<h2>Education</h2>
+</div>
+</div>
+<div class="offset-lg-2 col-xl-9 col-lg-9">
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>User Experience Designer</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at <a href="#">Dalian University<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+
+<div class="single-about">
+<div class="tittle-experience">
+<h3>UI Designer</h3>
+<p>March 2020 - Present</p>
+</div>
+<div class="experience-link">
+<p>at <a href="#">School of California<i class="fas fa-external-link-alt"></i></a></p>
+</div>
+<div class="bottom-pera">
+<p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<div class="instagram-area fix">
+<div class="container-fluid p-0">
+<div class="row">
+<div class="col-xl-12">
+<div class="instagram-active owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-5247px, 0px, 0px); transition: all 2s ease 0s; width: 11369px;"><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery2.jpg.pagespeed.ic.ZRrJxJCk9P.webp" alt="" data-pagespeed-url-hash="1933224151" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery2.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery3.jpg.pagespeed.ic.euMbyie1L8.webp" alt="" data-pagespeed-url-hash="2227724072" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery3.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery4.jpg.pagespeed.ic.fflSVOffX7.webp" alt="" data-pagespeed-url-hash="2522223993" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery4.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery2.jpg.pagespeed.ic.ZRrJxJCk9P.webp" alt="" data-pagespeed-url-hash="1933224151" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery2.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery1.jpg.pagespeed.ic.INdsGjW0eZ.webp" alt="" data-pagespeed-url-hash="1638724230" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery1.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery2.jpg.pagespeed.ic.ZRrJxJCk9P.webp" alt="" data-pagespeed-url-hash="1933224151" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery2.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item active" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery3.jpg.pagespeed.ic.euMbyie1L8.webp" alt="" data-pagespeed-url-hash="2227724072" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery3.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item active" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery4.jpg.pagespeed.ic.fflSVOffX7.webp" alt="" data-pagespeed-url-hash="2522223993" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery4.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item active" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery2.jpg.pagespeed.ic.ZRrJxJCk9P.webp" alt="" data-pagespeed-url-hash="1933224151" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery2.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned active" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery1.jpg.pagespeed.ic.INdsGjW0eZ.webp" alt="" data-pagespeed-url-hash="1638724230" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery1.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery2.jpg.pagespeed.ic.ZRrJxJCk9P.webp" alt="" data-pagespeed-url-hash="1933224151" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery2.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery3.jpg.pagespeed.ic.euMbyie1L8.webp" alt="" data-pagespeed-url-hash="2227724072" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery3.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div><div class="owl-item cloned" style="width: 874.5px;"><div class="single-instagram">
+<img src="assets/img/gallery/xgallery4.jpg.pagespeed.ic.fflSVOffX7.webp" alt="" data-pagespeed-url-hash="2522223993" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+<a href="assets/img/gallery/gallery4.jpg" class="img-pop-up"><i class="ti-zoom-in"></i></a>
+</div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots disabled"></div></div>
+</div>
+</div>
+</div>
+</div>
+
+</main>
+<footer>
+<div class="footer-wrappr footer-padding">
+<div class="footer-top">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-xxl-9 col-xl-10 col-lg-10">
+<div class="section-tittle text-center mb-45">
+<h2>I’m a designer, based in San Francisco. Currently a freelancer. You can see my hobbies on @Jack-Co and some photos on me too.</h2>
+</div>
+</div>
+</div>
+<div class="row row justify-content-between border-top pt-50">
+<div class="col-lg-6">
+
+<div class="form-wrapper mb-50">
+<div class="footer-tittle">
+<h4>Drop a Line</h4>
+</div>
+<form id="contact-form" action="#" method="POST">
+<div class="row">
+<div class="col-md-12">
+<div class="form-box user-icon mb-15">
+<input type="text" name="name" placeholder="Your name">
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-box email-icon mb-15">
+<input type="text" name="email" placeholder="Email">
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-box email-icon mb-15">
+<input type="text" name="email" placeholder="Subject">
+</div>
+</div>
+<div class="col-lg-12">
+<div class="form-box message-icon mb-15">
+<textarea name="message" id="message" placeholder="Message"></textarea>
+</div>
+<div class="submit-info">
+<button class="btn f-right" type="submit">Send Message</button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="col-lg-4">
+
+<div class="form-wrapper">
+<div class="row ">
+<div class="col-xl-12">
+<div class="footer-tittle">
+<h4>Contact Me</h4>
+<ul class="mb-30">
+<li><a href="#">4657 Franklin Avenue, ARCH CAPE</a></li>
+<li><a href="#">+361-883-3218</a></li>
+<li><a href="#">hello@jac-co.com</a></li>
+</ul>
+<a href="#" class="border-btn">Download Resume</a>
+</div>
+
+<div class="footer-social pt-30">
+<a href="https://www.fb.com/sai4ull"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom-area">
+<div class="container">
+<div class="footer-border">
+<div class="row">
+<div class="col-xl-12 ">
+<div class="footer-copy-right text-center">
+<p>Copyright ©<script>document.write(new Date().getFullYear());</script>2021 All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div id="back-top">
+<a class="wrapper" title="Go to Top" href="#">
+<div class="arrows-container">
+<div class="arrow arrow-one">
+</div>
+<div class="arrow arrow-two">
+</div>
+</div>
+</a>
+</div>
+
+
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js+bootstrap.min.js.pagespeed.jc.pi8I_Vk2Iy.js"></script><script>eval(mod_pagespeed_A7h6iLJydP);</script>
+<script>eval(mod_pagespeed_8H29cmkpLV);</script>
+
+<script src="assets/js/owl.carousel.min.js+slick.min.js.pagespeed.jc.00_GGrcX0x.js"></script><script>eval(mod_pagespeed_h_i3L_20zc);</script>
+<script>eval(mod_pagespeed_nnwrx_biEY);</script>
+<script src="assets/js/jquery.slicknav.min.js+wow.min.js+jquery.magnific-popup.js+jquery.nice-select.min.js+jquery.counterup.min.js+waypoints.min.js+contact.js.pagespeed.jc.TtSqS6Gl5Z.js"></script><script>eval(mod_pagespeed_cLH2uXwN6d);</script>
+
+<script>eval(mod_pagespeed_enSDoPdpYn);</script>
+<script>eval(mod_pagespeed_oUmZ9q_ktA);</script>
+<script>eval(mod_pagespeed_WBHTkwVV9l);</script>
+<script>eval(mod_pagespeed_GKJ09xT_gP);</script>
+<script>eval(mod_pagespeed_e4mVM9sgT6);</script>
+
+<script>eval(mod_pagespeed_D$QvniHwSf);</script>
+<script src="assets/js/jquery.form.js+jquery.validate.min.js+mail-script.js+jquery.ajaxchimp.min.js+plugins.js+main.js.pagespeed.jc.HjVd1-Hje5.js"></script><script>eval(mod_pagespeed_ahYJdqe8OO);</script>
+<script>eval(mod_pagespeed_qgt7iawesP);</script>
+<script>eval(mod_pagespeed_UcFh6TptNl);</script>
+<script>eval(mod_pagespeed_uaoxHgewy$);</script>
+
+<script>eval(mod_pagespeed_ett_f_EDxE);</script>
+<script>eval(mod_pagespeed_l6P6mAW5ox);</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-23581568-13');
+                    </script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;rayId&quot;:&quot;6a6ffe35a4d43d3c&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.10.0&quot;,&quot;si&quot;:100}"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;rayId&quot;:&quot;6a6ffe358e4a3d3c&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2021.10.0&quot;,&quot;si&quot;:100}"></script>
+
+</body>
