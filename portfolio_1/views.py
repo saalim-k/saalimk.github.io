@@ -5,11 +5,11 @@ from . import views
 
 def index(request):
     context={}
-    return render(request, 'portfolio_1/templates/index.html', context=context)
+    return render(request, 'index.html', context=context)
 
 def home(request):
     context={}
-    return render(request, 'portfolio_1/home.html',context=context)
+    return render(request, 'home.html',context=context)
 
 def portfolio(request):
     context={}
