@@ -4,7 +4,8 @@ from . import views
 # Create your views here.
 
 def index(request):
-    context={}
+    num_visits = request.session.get('num_visits', 0)
+    context={num_visits:'num_visits'}
     return render(request, 'index.html', context=context)
 
 def home(request):
